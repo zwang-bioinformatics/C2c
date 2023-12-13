@@ -25,7 +25,7 @@ For a given Hi-C cooler file, run "generate_input_HiC.py" to get the input file 
 
 After obtaining the input file, run the "pred_MicroC.py" file to get the predicted Micro-C file, the output file of the C2c model is in the ".pkl" version, we provided two models in the "C2c_model" folder, one is for 1kb resolution, and the other is for 5kb resolution. From the example, the first parameter "fbt_16_1k.pkl" is the input Hi-C file getting from the previous step; the second parameter "C2c_models/1kb_model" is the 1kb C2c model; and the third parameter "pd_16_1k.pkl" is the output file from the C2c model. All the parameters should be in the fixed order as in the example. The output file should be the ".pkl" version.
 
-3. Gnearting a ".cool" file for the predicted Micro-C data:
+3. Generating a ".cool" file for the predicted Micro-C data:
 
     "python create_pkl2cool.py pd_16_1k.pkl chr16 pd_16_1k.cool".
 
