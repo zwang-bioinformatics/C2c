@@ -17,6 +17,7 @@ Examples:
    "python generate_input_HiC.py ../../shared/micro_C/mES_cool/mES_HiC_mm10_mapq30_1kb_2.6B.cool 1000 16 fbt_16_1k.pkl".
 
 For a given Hi-C cooler file, run "generate_input_HiC.py" to get the input file for the C2c model for predicting Micro-C data, where the first parameter "../../shared/micro_C/mES_cool/mES_HiC_mm10_mapq30_1kb_2.6B.cool" is the path of the Hi-C ".cool" file; the second "1000" is the resolution; the third parameter "16" is the chromosome; and the fourth parameter "fbt_16_1k.pkl" is the output file. All the parameters should be in the fixed order as in the example. The output file should be the ".pkl" version.
+
 2. Using C2c to predict Micro-C data.
    "python pred_MicroC.py fbt_16_1k.pkl C2c_models/1kb_model pd_16_1k.pkl".
 
