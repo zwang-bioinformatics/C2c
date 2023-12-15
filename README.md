@@ -2,8 +2,8 @@
 Required Python packages:
   1. PyTorch
   2. Numpy
-  3. cooler
-  4. pickle
+  3. Cooler
+  4. Pickle
 
 Required Hi-C files: All Hi-C files should be in the cooler ".cool" version. 
 
